@@ -13,7 +13,7 @@ class Genre
     end
 
     def artists
-      song.map {|song| song.genre}
+      song.map {|song| song.artists}
     end
 
     #class methods
