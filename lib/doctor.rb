@@ -8,6 +8,10 @@ class Doctor
     @@all << self
   end
 
+  def new_appointment
+    
+  end
+
   #class methods
   def self.all
     @@all
