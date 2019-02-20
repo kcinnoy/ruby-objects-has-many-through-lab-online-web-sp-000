@@ -9,7 +9,7 @@ class Genre
     end
 
     def songs
-      @songs
+      Song.all.select {|song| song.genre == self}
     end
 
     #class methods
