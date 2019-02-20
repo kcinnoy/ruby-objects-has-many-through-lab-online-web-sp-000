@@ -21,7 +21,7 @@ class Artist
 
   def genres
     xxx = songs.map {|song| song.genre}
-    
+
 
   end
 
