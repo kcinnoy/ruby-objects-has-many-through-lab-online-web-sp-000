@@ -1,6 +1,6 @@
 # require 'pry'
 class Artist
-  attr_accessor :name, :song, :genre
+  attr_accessor :name, :songs, :genre
 
   @@all = []
 
