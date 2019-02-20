@@ -10,5 +10,8 @@ class Appointment
     @@all << self
   end
 
+  #class methods
+  def self.all
+    @@all
   end
 end
