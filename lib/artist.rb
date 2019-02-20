@@ -16,11 +16,12 @@ class Artist
 
   def songs
     xx = Song.all.select {|song| song.artist == self}
+    binding.pry
   end
 
   def genres
     xxx = songs.map {|song| song.genre}
-    binding.pry
+    
 
   end
 
